@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.work-tmp/
+.render/
+outputs/
+data/
+*.pt
+*.pth
+*.zip
+.DS_Store

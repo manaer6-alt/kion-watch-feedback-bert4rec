@@ -1,0 +1,185 @@
+{
+  "plan_hash": "8f922f1b9331d510213a000134faf72aae7c50ebeffcd1df41ad03dd7649d4f5",
+  "plan": {
+    "version": "kion-watch-feedback-1.0",
+    "mode": "scientific",
+    "config": {
+      "n_users": 50000,
+      "min_history": 10,
+      "sample_seed": 20261031,
+      "sequence_length": 20,
+      "hidden_size": 64,
+      "layers": 2,
+      "heads": 2,
+      "dropout": 0.1,
+      "mask_probability": 0.35,
+      "weak_threshold": 10.0,
+      "high_threshold": 50.0,
+      "soft_floor": 0.2,
+      "batch_size": 128,
+      "eval_batch_size": 128,
+      "learning_rate": 0.001,
+      "weight_decay": 0.01,
+      "gradient_clip": 5.0,
+      "max_steps": 20000,
+      "eval_every": 1000,
+      "checkpoint_every": 1000,
+      "bootstrap_reps": 5000,
+      "bootstrap_seed": 20261031,
+      "technical_mode": false
+    },
+    "methods": [
+      "ALL",
+      "DELETE10",
+      "TARGET10",
+      "STEP10",
+      "SOFT"
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "cuts": [
+      [
+        "main",
+        "2021-08-01",
+        "2021-08-08",
+        "2021-08-15"
+      ],
+      [
+        "replication",
+        "2021-07-18",
+        "2021-07-25",
+        "2021-08-01"
+      ]
+    ],
+    "code_sha256": "5ab07ac369ae3966f3d781ada94a38415eed710ade65541c594c2a4fd3b57509",
+    "source_archive_sha256": "fddc5b2215bfff49bcfa21e464441f1fc6dc30f8f4afe41d3f23bf3fc45f3542",
+    "environment": {
+      "python": "3.13.15",
+      "torch": "2.11.0+cu128",
+      "numpy": "2.1.3",
+      "pandas": "2.3.3",
+      "cuda": "12.8",
+      "device": "cuda",
+      "gpu": "Tesla T4",
+      "precision": "float32",
+      "torch_cpu_threads": 2,
+      "implementation": "kion-watch-feedback-1.0"
+    },
+    "data": {
+      "main": {
+        "split": "main",
+        "train_end": "2021-08-01",
+        "validation_end": "2021-08-08",
+        "test_end": "2021-08-15",
+        "stats": {
+          "eligible_users": 81545,
+          "selected_users": 50000,
+          "train_pairs": 1085046,
+          "catalog_items": 10131,
+          "input_positions": 783385,
+          "validation_users_any": 15523,
+          "validation_users_high": 8471,
+          "delete_training_users": 49426,
+          "delete_removed_training_users": 574,
+          "weak_input_fraction": 0.2566732832515302
+        },
+        "validation": {
+          "start_exclusive": "2021-08-01",
+          "end_inclusive": "2021-08-08",
+          "users_with_raw_future_films": 15824,
+          "users_without_known_targets": 301,
+          "users_any": 15523,
+          "users_high": 8471,
+          "targets_any": 25947,
+          "targets_high": 11438,
+          "fingerprint": "ef47e1e34cf92e495204c6e5028642cb2dac4dc3b3582ee9e69eb9e2de4a9ba6"
+        },
+        "array_hashes": {
+          "users": "34e8b011e8f8262b8c5e3dc73a13dfe8d955efb476fec10acb3edafb4b432ce4",
+          "items": "b670dbf5a7344f26681827f09dd7602bcbce6df33685493efa350d691ae55735",
+          "all_tokens": "47614e3499bdb5a666a631e0f9ae942bd676d68e5b8ccba31aa99d164d6a72ee",
+          "delete_tokens": "975cc2fc497ee7f434e45e2f7137e7ddfa3abcf99f73c1d085e24d4bb136469e",
+          "all_pct": "fae138be1d77f950180af31bd9b630358f9886367f8f3870d69670d21156c52c",
+          "delete_pct": "74aac3bdf3ee9d94ce6661740603717aa3cd3568d0b014ce003590c6b5f90ea6"
+        },
+        "source_archive_sha256": "fddc5b2215bfff49bcfa21e464441f1fc6dc30f8f4afe41d3f23bf3fc45f3542",
+        "fingerprint": "e9bb2f4b77a319f0401dd0b79f9a635842b4fe2bcd1067fe4394f4f4501de4ba"
+      },
+      "replication": {
+        "split": "replication",
+        "train_end": "2021-07-18",
+        "validation_end": "2021-07-25",
+        "test_end": "2021-08-01",
+        "stats": {
+          "eligible_users": 66620,
+          "selected_users": 50000,
+          "train_pairs": 1069327,
+          "catalog_items": 10298,
+          "input_positions": 780135,
+          "validation_users_any": 16058,
+          "validation_users_high": 9650,
+          "delete_training_users": 49403,
+          "delete_removed_training_users": 597,
+          "weak_input_fraction": 0.2542829125728239
+        },
+        "validation": {
+          "start_exclusive": "2021-07-18",
+          "end_inclusive": "2021-07-25",
+          "users_with_raw_future_films": 16289,
+          "users_without_known_targets": 231,
+          "users_any": 16058,
+          "users_high": 9650,
+          "targets_any": 26910,
+          "targets_high": 13044,
+          "fingerprint": "4b06636ad64187c9fa8f4c82aee18e569449b087ebdb0ba2ee6027b98792b743"
+        },
+        "array_hashes": {
+          "users": "ddfbb26aa974a10b0950176bf5fac340063d3b28cef3aca39c23dddc17c84fc1",
+          "items": "5a17903486b3f60120056f188d231e4ead176e0f2ae9700d3ab8c8150b90916b",
+          "all_tokens": "d64bf03270e707c45afd561990f0bfb1e203db29a7e77415d5aa045b80620cd0",
+          "delete_tokens": "98a2bf9c8ab12303929e0e05f768d67d4286c30bfce3012eb9d9bc4a5e3d46f6",
+          "all_pct": "b27fb18144909139e5b224ffb75a6ded7b3a95b39076e4f003ff9f5c021d875c",
+          "delete_pct": "ba97c61de0f9f0021fe5f7e9dd1aa237eff2fdb1382cf60a886d3247d6019228"
+        },
+        "source_archive_sha256": "fddc5b2215bfff49bcfa21e464441f1fc6dc30f8f4afe41d3f23bf3fc45f3542",
+        "fingerprint": "5b4651595ffba142f8a95f8a2c08870830cb4bac1a44e319b1d751ab628c4b62"
+      }
+    },
+    "models": 30,
+    "checkpoint_selection": "validation_ndcg10_high; first maximum; no test selection",
+    "primary_contrasts": [
+      [
+        "main",
+        "SOFT",
+        "ALL",
+        "ndcg10_high"
+      ],
+      [
+        "main",
+        "SOFT",
+        "STEP10",
+        "ndcg10_high"
+      ],
+      [
+        "replication",
+        "SOFT",
+        "ALL",
+        "ndcg10_high"
+      ],
+      [
+        "replication",
+        "SOFT",
+        "STEP10",
+        "ndcg10_high"
+      ]
+    ],
+    "primary_interval_level": 0.9875,
+    "other_intervals": "descriptive_95_percent",
+    "test_use": "fixed_protocol; KION previously used for another study; no claim of independent dataset",
+    "loss": "sum(w*CE)/sum(w); mask p=.35; ZERO and missing pct are different",
+    "limits": "aggregated last-date film interactions; conditional user bootstrap; three training seeds"
+  }
+}

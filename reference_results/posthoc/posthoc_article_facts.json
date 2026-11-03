@@ -1,0 +1,38 @@
+{
+  "status": "exploratory_verified",
+  "history_20_49_difference": {
+    "main": 0.0038046231363431,
+    "replication": -0.0042032940019614
+  },
+  "popular_future_target_percent": {
+    "main": 83.19267188143269,
+    "replication": 85.15513126491648
+  },
+  "popular_ndcg_contribution_difference": {
+    "main": 0.0038021116634609,
+    "replication": -0.0019248466276135
+  },
+  "item_9728_main_share_of_net_SOFT_DELETE10_difference_percent": 59.04758132808466,
+  "item_9728_difference": {
+    "main": 0.0022238811211884,
+    "replication": -0.0005012419385846
+  },
+  "weak_group_shares": {
+    "main": [
+      0.0820005421523448,
+      0.7455950121984277,
+      0.1724044456492274
+    ],
+    "replication": [
+      0.0865191146881287,
+      0.7481136820925554,
+      0.1653672032193159
+    ]
+  },
+  "composition": {
+    "main_minus_replication": 0.005631478140966137,
+    "composition": -3.653431862872968e-05,
+    "within_group": 0.005668012459594867
+  },
+  "limits": "posthoc_descriptive_not_routing_policy_not_causal_no_long_tail_gain_demonstrated"
+}

@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "archive_sha256": "023e60855a04206f912b4eafc96944e61898ffabb3bb1669ae891493f421c2e9",
+  "archive_files": 263,
+  "plan_hash": "8f922f1b9331d510213a000134faf72aae7c50ebeffcd1df41ad03dd7649d4f5",
+  "code_sha256": "5ab07ac369ae3966f3d781ada94a38415eed710ade65541c594c2a4fd3b57509",
+  "models": 30,
+  "steps_per_model": 20000,
+  "raw_cohorts_catalogs_training_windows_validation_and_test_targets_rebuilt": true,
+  "validation_and_test_user_rows_recomputed_from_ranked_ids": 898980,
+  "bootstrap_intervals_independently_recomputed": 32,
+  "replications": 5000,
+  "primary_positive_intervals": 3,
+  "primary_comparisons": [
+    {
+      "split": "main",
+      "left": "SOFT",
+      "right": "ALL",
+      "metric": "ndcg10_high",
+      "role": "primary",
+      "users": 7378,
+      "mean_difference": 0.004158218526558001,
+      "level": 0.9875,
+      "low": 0.00192134182641828,
+      "high": 0.006505633178579778,
+      "repetitions": 5000
+    },
+    {
+      "split": "main",
+      "left": "SOFT",
+      "right": "STEP10",
+      "metric": "ndcg10_high",
+      "role": "primary",
+      "users": 7378,
+      "mean_difference": 0.0027539355499608155,
+      "level": 0.9875,
+      "low": 0.0007051262773749106,
+      "high": 0.004843835710199083,
+      "repetitions": 5000
+    },
+    {
+      "split": "replication",
+      "left": "SOFT",
+      "right": "ALL",
+      "metric": "ndcg10_high",
+      "role": "primary",
+      "users": 7952,
+      "mean_difference": 0.004349868564312056,
+      "level": 0.9875,
+      "low": 0.0021811440150514153,
+      "high": 0.006556428422326113,
+      "repetitions": 5000
+    },
+    {
+      "split": "replication",
+      "left": "SOFT",
+      "right": "STEP10",
+      "metric": "ndcg10_high",
+      "role": "primary",
+      "users": 7952,
+      "mean_difference": 0.001171251576563982,
+      "level": 0.9875,
+      "low": -0.0008030734454592926,
+      "high": 0.003047358863291219,
+      "repetitions": 5000
+    }
+  ],
+  "raw_data_checks": {
+    "main": {
+      "users": 50000,
+      "catalog_items": 10131,
+      "train_pairs": 1085046,
+      "validation_users": 15523,
+      "test_users": 13829
+    },
+    "replication": {
+      "users": 50000,
+      "catalog_items": 10298,
+      "train_pairs": 1069327,
+      "validation_users": 16058,
+      "test_users": 14522
+    }
+  },
+  "available_checksums_verified": true,
+  "model_weight_contents_verified": false,
+  "training_hours": 2.3945450107899413,
+  "validation_hours": 0.4155587274063847,
+  "recorded_training_validation_checkpoint_hours": 2.823586195630767,
+  "scope": "independent_numeric_audit_no_retraining_no_execution_of_archive_code_no_model_weights_in_ZIP"
+}

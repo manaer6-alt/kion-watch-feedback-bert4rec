@@ -1,0 +1,229 @@
+[
+  {
+    "key": "sun2019",
+    "authors": [
+      "Sun, Fei",
+      "Liu, Jun",
+      "Wu, Jian",
+      "Pei, Changhua",
+      "Lin, Xiao",
+      "Ou, Wenwu",
+      "Jiang, Peng"
+    ],
+    "year": 2019,
+    "title": "BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer",
+    "publication": "CIKM 2019, pp. 1441–1450",
+    "url": "https://arxiv.org/html/1904.06690",
+    "doi": "10.1145/3357384.3357895",
+    "claim": "MLM для рекомендаций; §4.6 уже изучает доли 0,1–0,9 и разные оптимумы датасетов.",
+    "verification_level": "full_relevant_sections_3_and_4_6_4_7",
+    "checked_on": "2026-10-31",
+    "additional_source": null
+  },
+  {
+    "key": "hu2008",
+    "authors": [
+      "Hu, Yifan",
+      "Koren, Yehuda",
+      "Volinsky, Chris"
+    ],
+    "year": 2008,
+    "title": "Collaborative Filtering for Implicit Feedback Datasets",
+    "publication": "ICDM 2008, pp. 263–272",
+    "url": "https://yifanhu.net/PUB/cf.pdf",
+    "doi": "10.1109/ICDM.2008.22",
+    "claim": "Просмотры — неявные наблюдения; отсутствие взаимодействия не является прямой отрицательной оценкой.",
+    "verification_level": "abstract_and_metadata",
+    "checked_on": "2026-10-31",
+    "additional_source": null
+  },
+  {
+    "key": "petrov2022repro",
+    "authors": [
+      "Petrov, Aleksandr",
+      "Macdonald, Craig"
+    ],
+    "year": 2022,
+    "title": "A Systematic Review and Replicability Study of BERT4Rec for Sequential Recommendation",
+    "publication": "RecSys 2022, pp. 436–447",
+    "url": "https://eprints.gla.ac.uk/275645/",
+    "doi": "10.1145/3523227.3548487",
+    "claim": "Результаты BERT4Rec зависят от реализации и длительности обучения.",
+    "verification_level": "author_abstract_and_experimental_description",
+    "checked_on": "2026-10-31",
+    "additional_source": null
+  },
+  {
+    "key": "petrov2022kion",
+    "authors": [
+      "Petrov, Aleksandr",
+      "Safilo, Ildar",
+      "Tikhonovich, Daria",
+      "Ignatov, Dmitry"
+    ],
+    "year": 2022,
+    "title": "MTS Kion Implicit Contextualised Sequential Dataset for Movie Recommendation",
+    "publication": "Препринт arXiv:2209.00325",
+    "url": "https://arxiv.org/abs/2209.00325",
+    "doi": null,
+    "claim": "Происхождение, неявный характер и агрегация KION; BERT4Rec на KION не является новой идеей.",
+    "verification_level": "dataset_description_and_schema",
+    "checked_on": "2026-10-31",
+    "additional_source": "https://github.com/irsafilo/KION_DATASET"
+  },
+  {
+    "key": "ji2023",
+    "authors": [
+      "Ji, Yitong",
+      "Sun, Aixin",
+      "Zhang, Jie",
+      "Li, Chenliang"
+    ],
+    "year": 2023,
+    "title": "A Critical Study on Data Leakage in Recommender System Offline Evaluation",
+    "publication": "ACM TOIS, vol. 41(3), article 75, pp. 1–27",
+    "url": "https://arxiv.org/abs/2010.11060",
+    "doi": "10.1145/3569930",
+    "claim": "Игнорирование общей временной шкалы может приводить к утечкам и смене ранжирования методов.",
+    "verification_level": "abstract_and_metadata",
+    "checked_on": "2026-10-31",
+    "additional_source": null
+  },
+  {
+    "key": "loshchilov2019",
+    "authors": [
+      "Loshchilov, Ilya",
+      "Hutter, Frank"
+    ],
+    "year": 2019,
+    "title": "Decoupled Weight Decay Regularization",
+    "publication": "ICLR 2019",
+    "url": "https://openreview.net/pdf?id=Bkg6RiCqY7",
+    "doi": null,
+    "claim": "AdamW и отделённый weight decay; использован в нашей реализации.",
+    "verification_level": "abstract_and_metadata",
+    "checked_on": "2026-10-31",
+    "additional_source": null
+  },
+  {
+    "key": "krichene2020",
+    "authors": [
+      "Krichene, Walid",
+      "Rendle, Steffen"
+    ],
+    "year": 2020,
+    "title": "On Sampled Metrics for Item Recommendation",
+    "publication": "KDD 2020, pp. 1748–1757",
+    "url": "https://research.google/pubs/on-sampled-metrics-for-item-recommendation/",
+    "doi": "10.1145/3394486.3403226",
+    "claim": "Sampled metrics могут менять порядок методов; используем весь каталог.",
+    "verification_level": "abstract_and_metadata",
+    "checked_on": "2026-10-31",
+    "additional_source": null
+  },
+  {
+    "key": "efron1979",
+    "authors": [
+      "Efron, Bradley"
+    ],
+    "year": 1979,
+    "title": "Bootstrap Methods: Another Look at the Jackknife",
+    "publication": "The Annals of Statistics, vol. 7(1), pp. 1–26",
+    "url": "https://projecteuclid.org/journals/annals-of-statistics/volume-7/issue-1/Bootstrap-Methods-Another-Look-at-the-Jackknife/10.1214/aos/1176344552.full",
+    "doi": "10.1214/aos/1176344552",
+    "claim": "Основная идея bootstrap; конкретная парная схема и ограничения описываются отдельно.",
+    "verification_level": "journal_metadata_and_method_reference",
+    "checked_on": "2026-10-31",
+    "additional_source": null
+  },
+  {
+    "key": "covington2016",
+    "authors": [
+      "Covington, Paul",
+      "Adams, Jay",
+      "Sargin, Emre"
+    ],
+    "year": 2016,
+    "title": "Deep Neural Networks for YouTube Recommendations",
+    "publication": "RecSys 2016, pp. 191–198",
+    "doi": "10.1145/2959100.2959190",
+    "url": "https://research.google/pubs/deep-neural-networks-for-youtube-recommendations/",
+    "additional_source": "https://research.google.com/pubs/archive/45530.pdf",
+    "claim": "Раздел 4.2: вес положительного примера пропорционален наблюдаемому времени просмотра; другая задача и функция потерь.",
+    "verification_level": "author_repository_and_relevant_section_4_2",
+    "checked_on": "2026-10-31"
+  },
+  {
+    "key": "rectools",
+    "authors": [
+      "RecTools contributors"
+    ],
+    "year": null,
+    "title": "Transformer Models Advanced Training Guide",
+    "publication": "Официальная документация RecTools, раздел Prepare data; дата обращения 31.10.2026",
+    "doi": null,
+    "url": "https://rectools.readthedocs.io/en/stable/examples/tutorials/transformers_advanced_training_guide.html",
+    "claim": "Точная строка np.where(watched_pct > 10, 3, 1); источник формы STEP10. Чужие результаты и внутреннее применение весов библиотекой не воспроизводились.",
+    "verification_level": "exact_code_example_checked",
+    "checked_on": "2026-10-31"
+  },
+  {
+    "key": "tong2021",
+    "authors": [
+      "Tong, Xiaohai",
+      "Wang, Pengfei",
+      "Li, Chenliang",
+      "Xia, Long",
+      "Niu, Shaozhang"
+    ],
+    "year": 2021,
+    "title": "Pattern-enhanced Contrastive Policy Learning Network for Sequential Recommendation",
+    "publication": "IJCAI 2021, pp. 1593–1599",
+    "doi": "10.24963/ijcai.2021/220",
+    "url": "https://ijcai.org/proceedings/2021/220",
+    "claim": "RAP обучает отбор элементов и использует контрастивное обучение; отличается от фиксированных весов в неизменной BERT4Rec.",
+    "verification_level": "official_proceedings_abstract_and_metadata",
+    "checked_on": "2026-10-31"
+  },
+  {
+    "key": "pan2023",
+    "authors": [
+      "Pan, Yunzhu",
+      "Gao, Chen",
+      "Chang, Jianxin",
+      "Niu, Yanan",
+      "Song, Yang",
+      "Gai, Kun",
+      "Jin, Depeng",
+      "Li, Yong"
+    ],
+    "year": 2023,
+    "title": "Understanding and Modeling Passive-Negative Feedback for Short-video Sequential Recommendation",
+    "publication": "RecSys 2023, pp. 540–550",
+    "doi": "10.1145/3604915.3608814",
+    "url": "https://arxiv.org/abs/2308.04086",
+    "additional_source": "https://github.com/tsinghua-fib-lab/RecSys2023-SINE",
+    "claim": "SINE использует пассивную отрицательную обратную связь в автопроигрываемых коротких видео, меняет архитектуру и задачи; нельзя считать малую долю фильма эквивалентом skip.",
+    "verification_level": "author_paper_and_official_code_citation",
+    "checked_on": "2026-10-31"
+  },
+  {
+    "key": "zhao2023",
+    "authors": [
+      "Zhao, Haiyuan",
+      "Zhang, Lei",
+      "Xu, Jun",
+      "Cai, Guohao",
+      "Dong, Zhenhua",
+      "Wen, Ji-Rong"
+    ],
+    "year": 2023,
+    "title": "Uncovering User Interest from Biased and Noised Watch Time in Video Recommendation",
+    "publication": "RecSys 2023",
+    "doi": "10.1145/3604915.3608797",
+    "url": "https://arxiv.org/html/2308.08120",
+    "claim": "D²Co моделирует шум и смещение времени просмотра, §§3.3–4; простая нормированная доля сама по себе не доказана как оценка истинного интереса.",
+    "verification_level": "author_full_text_abstract_sections_3_3_and_4",
+    "checked_on": "2026-10-31"
+  }
+]

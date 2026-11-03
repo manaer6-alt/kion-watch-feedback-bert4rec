@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "scientific_models_in_source_archive": 30,
+  "new_scientific_training_performed": false,
+  "cpu_smoke_models": 30,
+  "cpu_smoke_steps": 2,
+  "unit_tests": 9,
+  "portable_full_archive_audit": "passed",
+  "bootstrap_intervals": 32,
+  "user_metric_rows_recomputed": 898980,
+  "docx_tables": 3,
+  "docx_figures": 2,
+  "docx_native_equations": 1,
+  "docx_pages": 6,
+  "all_final_pages_visually_reviewed": true,
+  "sources": 13,
+  "posthoc_status": "exploratory_checked",
+  "posthoc_user_subgroup_rows": 18,
+  "posthoc_descriptive_intervals": 46,
+  "model_weight_contents_verified": false,
+  "scientific_implementation_sha256": "5ab07ac369ae3966f3d781ada94a38415eed710ade65541c594c2a4fd3b57509"
+}

@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+# Frozen source/notebook bytes must survive checkout unchanged.
+kion_watch_feedback.py -text
+notebooks/*.ipynb -text
+*.png binary
+*.docx binary

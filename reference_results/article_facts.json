@@ -1,0 +1,18 @@
+{
+  "status": "verified_results_available",
+  "plan_hash": "8f922f1b9331d510213a000134faf72aae7c50ebeffcd1df41ad03dd7649d4f5",
+  "models": 30,
+  "SOFT_vs_ALL_high_NDCG_relative_percent": {
+    "main": 4.432446780116828,
+    "replication": 4.4615395217558085
+  },
+  "SOFT_vs_STEP10_primary_positive_interval": {
+    "main": true,
+    "replication": false
+  },
+  "highest_mean_high_NDCG": {
+    "main": "SOFT",
+    "replication": "DELETE10"
+  },
+  "scope": "film_view_percentage_proxy; conditional_user_bootstrap; three_seeds; two_correlated_temporal_cuts"
+}

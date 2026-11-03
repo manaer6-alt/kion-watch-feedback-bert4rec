@@ -1,0 +1,34 @@
+{
+  "status": "exploratory_after_aggregate_results",
+  "contrast": "SOFT-DELETE10",
+  "outcome": "ndcg10_high",
+  "axes": {
+    "history": [
+      "10–19",
+      "20–49",
+      "50+"
+    ],
+    "weak_share": [
+      "0",
+      "(0; 1/3]",
+      "(1/3; 1]"
+    ],
+    "context": [
+      "no_weak_recent",
+      "weak_refilled_19",
+      "weak_shorter_19"
+    ]
+  },
+  "film_training_frequency": [
+    "1–10",
+    "11–100",
+    "101+"
+  ],
+  "bootstrap_repetitions": 5000,
+  "bootstrap_seed": 20261031,
+  "level": 0.95,
+  "interval_scope": "descriptive_conditional_on_trained_models_no_multiplicity_adjustment",
+  "group_features": "observed_before_test_only",
+  "new_training": false,
+  "design_hash": "445a2926d84659bb87aca5602666728e4abdef21fb118713ebaee5de0d35e2ef"
+}

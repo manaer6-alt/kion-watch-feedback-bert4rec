@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "scope": "exploratory_subgroup_and_additive_item_analysis",
+  "archive_sha256": "023e60855a04206f912b4eafc96944e61898ffabb3bb1669ae891493f421c2e9",
+  "source_archive_sha256": "fddc5b2215bfff49bcfa21e464441f1fc6dc30f8f4afe41d3f23bf3fc45f3542",
+  "design_hash": "445a2926d84659bb87aca5602666728e4abdef21fb118713ebaee5de0d35e2ef",
+  "new_training": false,
+  "methods": [
+    "ALL",
+    "DELETE10",
+    "SOFT"
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "user_subgroup_rows": 18,
+  "all_group_partitions_reconstruct_overall_difference": true,
+  "item_groups_and_individual_items_reconstruct_NDCG": true,
+  "saved_user_metrics_recomputed_from_ranked_ids_and_raw_targets": true,
+  "features_precede_test": true,
+  "intervals": "descriptive_conditional_95_percent_5000_repetitions_no_multiplicity_correction",
+  "cohort_overlap": 30645,
+  "high_test_population_overlap": 1528,
+  "film_concentration": {
+    "main": {
+      "top5_absolute_share": 0.2545561832961614,
+      "top5_signed_sum": 0.003979641122851957,
+      "films_with_high_targets": 2052
+    },
+    "replication": {
+      "top5_absolute_share": 0.17565344468646077,
+      "top5_signed_sum": -0.0014384420933014192,
+      "films_with_high_targets": 2201
+    }
+  },
+  "composition_decomposition": {
+    "main_minus_replication": 0.005631478140966137,
+    "composition": -3.653431862872968e-05,
+    "within_group": 0.005668012459594867
+  }
+}
