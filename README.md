@@ -2,7 +2,20 @@
 
 Reproducible comparison of five ways to use film watch percentage as implicit feedback in a fixed compact BERT4Rec. [Инструкция на русском](README_RU.md).
 
-The accompanying Russian manuscript is in `paper/manuscript_ru.md` and `.docx`. This repository is a prepared research artifact; a public GitHub URL and final author/publication details have not been assigned.
+The accompanying Russian manuscript is in `paper/manuscript_ru.md` and `.docx`. The original public repository is https://github.com/manaer6-alt/kion-watch-feedback-bert4rec. Final author and publication details remain to be assigned.
+
+## Review additions dated 2026-11-03
+
+The original five-method, 30-model experiment remains the main comparison. The revised manuscript adds an ALL/SOFT budget sensitivity check (12 trajectories to 40,000 updates, with separate validation selections within 20,000 and 40,000), an inference-only day-order stress test on saved weights, and an evidence appendix at `docs/SUPPLEMENT_RU.md`. New aggregate results and audit records are under `reference_results/budget40k` and `reference_results/day_order`. New 95% user intervals are exploratory and conditional, without multiplicity correction; they do not replace the original primary 98.75% intervals.
+
+Use `notebooks/Article2_Budget_20k_40k_Kaggle.ipynb` to reproduce the budget check. Save the FULL ZIP as well as the light results ZIP: only the FULL archive contains weights and optimizer states. The day-order stress test reuses those weights without fitting:
+
+```bash
+python analysis/check_day_order.py --full-archive /path/budget_FULL.zip --data-archive /path/data_en.zip --output-dir outputs/day_order
+python analysis/summarize_day_order.py --results-dir outputs/day_order
+```
+
+The first command runs CPU inference; `--pilot` measures its approximate cost. It permutes complete known past day groups before clipping to 19 items. This is an inference perturbation of models trained with item-ID tie ordering, not a test of alternative training orders. CLI wrappers adapt paths; recorded runtime environments and original plan hashes are retained with the aggregate results. GitHub Actions is omitted from this release; tests and the release checker run locally using the commands below.
 
 ## What is compared
 

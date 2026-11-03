@@ -1,0 +1,37 @@
+{
+  "source_plan_hash": "83e4b49fa0b52a73c978590de20b662cf242c25212a99e540521f736a9f1e544",
+  "source_archive": "C:\\Users\\Александр\\Downloads\\kion_article2_budget40k_v1_FULL.zip",
+  "script_sha256": "70bee4defe627a23dba31fbcdb7015199b58b71b5d84e4e92c2f46f224ef73c9",
+  "source_code_sha256": "5ab07ac369ae3966f3d781ada94a38415eed710ade65541c594c2a4fd3b57509",
+  "methods": [
+    "ALL",
+    "SOFT"
+  ],
+  "training_seeds": [
+    17,
+    29,
+    43
+  ],
+  "permutation_seeds": [
+    20261103,
+    20261104,
+    20261105
+  ],
+  "budget": 40000,
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.9.0+cpu",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "cuda": null,
+    "device": "cpu",
+    "gpu": null,
+    "precision": "float32",
+    "torch_cpu_threads": 4,
+    "implementation": "kion-watch-feedback-1.0"
+  },
+  "training_performed": false,
+  "context": "reorder full known past within same recorded day, then take last19",
+  "targets_and_seen": "original fixed test targets and exclusions",
+  "scope": "exploratory inference perturbation on ID-order-trained weights; not training-order robustness"
+}

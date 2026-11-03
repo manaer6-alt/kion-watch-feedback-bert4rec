@@ -1,0 +1,33 @@
+split,contrast,metric,scope,users,mean_difference,level,low,high,repetitions
+main,SOFT-ALL at 20000,ndcg10_high,exploratory_conditional_95_no_multiplicity_correction,7378,0.004158218526558001,0.95,0.0023703656027922516,0.006006760259300406,5000
+main,SOFT-ALL at 20000,recall10_high,exploratory_conditional_95_no_multiplicity_correction,7378,0.00655576013396561,0.95,0.003452637653301791,0.009696892197739308,5000
+main,SOFT-ALL at 20000,ndcg10_any,exploratory_conditional_95_no_multiplicity_correction,13829,0.001002527237252226,0.95,-0.00018002021578186896,0.002222008729225397,5000
+main,SOFT-ALL at 20000,recall10_any,exploratory_conditional_95_no_multiplicity_correction,13829,0.0034305001086764046,0.95,0.0014152006351821958,0.005537862477287778,5000
+main,SOFT-ALL at 40000,ndcg10_high,exploratory_conditional_95_no_multiplicity_correction,7378,0.003094832223841852,0.95,0.001330663288424977,0.00482681382466592,5000
+main,SOFT-ALL at 40000,recall10_high,exploratory_conditional_95_no_multiplicity_correction,7378,0.004102090494066639,0.95,0.0011851038069186617,0.006968252843659456,5000
+main,SOFT-ALL at 40000,ndcg10_any,exploratory_conditional_95_no_multiplicity_correction,13829,0.0001141001279612671,0.95,-0.0010297567103525222,0.001292269940971993,5000
+main,SOFT-ALL at 40000,recall10_any,exploratory_conditional_95_no_multiplicity_correction,13829,0.0007232015620185406,0.95,-0.0012178094193243515,0.002639801329827722,5000
+main,40k-20k ALL,ndcg10_high,exploratory_conditional_95_no_multiplicity_correction,7378,0.0018282106786905465,0.95,0.0005674870228744474,0.0031194921418603934,5000
+main,40k-20k ALL,recall10_high,exploratory_conditional_95_no_multiplicity_correction,7378,0.002382781069417014,0.95,9.938383955732859e-05,0.004704629163493354,5000
+main,40k-20k ALL,ndcg10_any,exploratory_conditional_95_no_multiplicity_correction,13829,0.0015066444551547235,0.95,0.0005982697301270502,0.0024107906578210592,5000
+main,40k-20k ALL,recall10_any,exploratory_conditional_95_no_multiplicity_correction,13829,0.002427022363387972,0.95,0.0008142136030088884,0.003998212516814727,5000
+main,40k-20k SOFT,ndcg10_high,exploratory_conditional_95_no_multiplicity_correction,7378,0.000764824375974397,0.95,-0.000940092804777484,0.002491921893302022,5000
+main,40k-20k SOFT,recall10_high,exploratory_conditional_95_no_multiplicity_correction,7378,-7.08885704819562e-05,0.95,-0.002987453045734422,0.0028132032382845603,5000
+main,40k-20k SOFT,ndcg10_any,exploratory_conditional_95_no_multiplicity_correction,13829,0.0006182173458637648,0.95,-0.0005252895482682481,0.0017660073597798216,5000
+main,40k-20k SOFT,recall10_any,exploratory_conditional_95_no_multiplicity_correction,13829,-0.0002802761832698923,0.95,-0.0022860281592836373,0.0016693068230824012,5000
+replication,SOFT-ALL at 20000,ndcg10_high,exploratory_conditional_95_no_multiplicity_correction,7952,0.004349868564312056,0.95,0.0026354103232192837,0.006042822834857423,5000
+replication,SOFT-ALL at 20000,recall10_high,exploratory_conditional_95_no_multiplicity_correction,7952,0.004400389228105526,0.95,0.0014883132216821856,0.00740436720551786,5000
+replication,SOFT-ALL at 20000,ndcg10_any,exploratory_conditional_95_no_multiplicity_correction,14522,0.001721482518858092,0.95,0.0005531675831013457,0.0028554465083771544,5000
+replication,SOFT-ALL at 20000,recall10_any,exploratory_conditional_95_no_multiplicity_correction,14522,0.00035291001816080517,0.95,-0.0016559606241983947,0.0023450781082199955,5000
+replication,SOFT-ALL at 40000,ndcg10_high,exploratory_conditional_95_no_multiplicity_correction,7952,0.003982012097631843,0.95,0.002169788640866234,0.00587459837846385,5000
+replication,SOFT-ALL at 40000,recall10_high,exploratory_conditional_95_no_multiplicity_correction,7952,0.004852180059675029,0.95,0.0016258740967933626,0.008033038977612669,5000
+replication,SOFT-ALL at 40000,ndcg10_any,exploratory_conditional_95_no_multiplicity_correction,14522,0.0012708758227016445,0.95,6.547000768517637e-05,0.0024797043941189273,5000
+replication,SOFT-ALL at 40000,recall10_any,exploratory_conditional_95_no_multiplicity_correction,14522,0.001319002665522888,0.95,-0.000760085653824464,0.0034078520976847633,5000
+replication,40k-20k ALL,ndcg10_high,exploratory_conditional_95_no_multiplicity_correction,7952,0.0028933209325385264,0.95,0.0014371169768877799,0.0044209369429045655,5000
+replication,40k-20k ALL,recall10_high,exploratory_conditional_95_no_multiplicity_correction,7952,0.003974121303095146,0.95,0.0014282233202001816,0.006792824346270017,5000
+replication,40k-20k ALL,ndcg10_any,exploratory_conditional_95_no_multiplicity_correction,14522,0.0021525261349491643,0.95,0.0010952589406048178,0.003169765745754166,5000
+replication,40k-20k ALL,recall10_any,exploratory_conditional_95_no_multiplicity_correction,14522,0.0018693348491815183,0.95,-3.036504608831658e-05,0.003688895272735021,5000
+replication,40k-20k SOFT,ndcg10_high,exploratory_conditional_95_no_multiplicity_correction,7952,0.0025254644658583127,0.95,0.001037608320799002,0.004042964495962979,5000
+replication,40k-20k SOFT,recall10_high,exploratory_conditional_95_no_multiplicity_correction,7952,0.004425912134664649,0.95,0.0017697416007589554,0.007152620206568898,5000
+replication,40k-20k SOFT,ndcg10_any,exploratory_conditional_95_no_multiplicity_correction,14522,0.0017019194387927175,0.95,0.000735114126087727,0.0027095280368502235,5000
+replication,40k-20k SOFT,recall10_any,exploratory_conditional_95_no_multiplicity_correction,14522,0.002835427496543601,0.95,0.0010148307281800447,0.004672698305525433,5000
