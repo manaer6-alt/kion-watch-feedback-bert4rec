@@ -11,3 +11,6 @@ kion_watch_feedback.py -text
 notebooks/*.ipynb -text
 *.png binary
 *.docx binary
+
+# Preserve the publication package and its published checksums byte-for-byte.
+docs/publication/** -text

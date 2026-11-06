@@ -2,7 +2,9 @@
 
 Reproducible comparison of five ways to use film watch percentage as implicit feedback in a fixed compact BERT4Rec. [Инструкция на русском](README_RU.md).
 
-The accompanying Russian manuscript is in `paper/manuscript_ru.md` and `.docx`. The original public repository is https://github.com/manaer6-alt/kion-watch-feedback-bert4rec. Final author and publication details remain to be assigned.
+The journal-submission manuscript and supplementary materials are in [docs/publication](docs/publication/README.md). The earlier research manuscript remains in `paper/`. The article links to the pinned scientific commit; the publication package was added later.
+
+The repository contains code, configuration and aggregate results, but not the original model weights or per-user predictions. Readers can run the experiments again with the separately obtained KION data; verifying the exact published per-user statistics or running the saved-weight day-order check requires the original private result/weight archives. A fresh run may differ numerically.
 
 ## Review additions dated 2026-11-03
 
